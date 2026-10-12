@@ -1,0 +1,48 @@
+@media (max-width: 800px) {
+    .image-card {
+        float: left;
+        margin: 20px;
+    }
+
+    .intro-zone {
+        position: relative;
+        display: block;
+        width: 90%;
+    }
+
+    .image-card > h1 {
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        color: #332d30;
+    }
+
+    .bio-card {
+        margin: 100px auto;
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .intro-zone {
+        position: none;
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .image-card {
+        float: none;
+    }
+
+    .image-card > h1 {
+        position: static;
+        color: white;
+    }
+
+    .bio-card {
+        width: 100vw;
+        margin: 0px;
+        flex: 1 1 auto;
+    }
+}
