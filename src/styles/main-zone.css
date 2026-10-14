@@ -1,0 +1,67 @@
+.card-section {
+    padding: 50px;
+}
+
+.card-section > h1 {
+    margin-bottom: 20px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.image-zone {
+    height: 60%;
+    overflow: hidden;
+}
+
+img {
+    height: 100%;
+    object-fit: fill;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+.card > header {
+    height: 10%;
+    padding: 0 20px;
+}
+
+.header-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container > h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: clamp(1.2rem, 2.5vw, 1.75rem);
+}
+
+
+.link-set {
+    display: flex;
+    gap: 10px;
+}
+
+.card > p {
+    height: 30%;
+    padding: 0 20px;
+    word-break: break-all;
+    overflow: auto;
+}

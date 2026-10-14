@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
     .image-card {
         float: left;
         margin: 20px;
@@ -21,6 +21,12 @@
         margin: 100px auto;
         width: 80%;
     }
+
+    .card-grid {
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -44,5 +50,10 @@
         width: 100vw;
         margin: 0px;
         flex: 1 1 auto;
+    }
+
+    .card-grid {
+        gap: 20px;
+        grid-template-columns: 1fr;
     }
 }

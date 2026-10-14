@@ -1,4 +1,4 @@
-header {
+.intro-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +39,10 @@ header {
     background-color: white;
 }
 
+.bio-card > h2 {
+    font-size: xx-large;
+}
+
 .bio-card > p {
     margin-bottom: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -51,7 +55,7 @@ nav {
     margin-left: auto;
 }
 
-nav svg {
+svg {
     width: 30px;
     height: auto;
     transition: transform 0.3s ease;
