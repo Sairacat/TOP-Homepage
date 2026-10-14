@@ -1,0 +1,33 @@
+
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: linear-gradient(90deg, white 10%, #fdf0ed 20%);
+    gap: 20px;
+    padding: 1rem;
+}
+
+.contact-zone p {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+.contact-unit {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-zone :nth-child(2 of .contact-unit) {
+    margin-bottom: 20px;
+}
+
+picture {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
