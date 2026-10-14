@@ -1,2 +1,2 @@
-# template-repo
-A template repo for every other repos.
+# TOP-Homepage
+A Homepage project to practice and implement responsive design.
